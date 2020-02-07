@@ -199,3 +199,75 @@ a:hover {
     text-decoration: none;
     float: right;
      }
+
+     
+  .button3{
+    align-content:right;
+    border: 2px solid white;
+    padding: 6px;
+    border-radius:15px;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    float: left;
+     }
+
+    
+    .box2{
+    
+      display:flex;
+      background: linear-gradient(red,transparent)left repeat;
+    }
+
+    .box2 p {
+      color: white;
+    }
+
+    .boxgauche3{
+      text-align: justify;
+      margin-right: 32px;
+      flex-basis:0;
+      flex-grow:1;
+    
+    }
+    .boxdroite3{
+    
+      
+      justify-content : center; 
+      display:flex;
+      align-items: center;
+      flex-basis:0;
+      flex-grow:1;
+      margin-top: 32px;
+    
+      }
+    
+      .boxdroite3 img {
+        mix-blend-mode:darken;
+      
+      }
+      .sub-title3 {
+        margin-top:64px;
+        margin-bottom: 0px;
+        color: white;
+        font-size: 40px;
+        text-align: left;
+      }
+
+      .box3{
+    
+        display:flex;
+        background: linear-gradient( #b620e0,transparent)left repeat;
+      }
+      .box3 p {
+        color: white;
+      }
+
+      .box4{
+    
+        display:flex;
+        background: linear-gradient( #6236ff,transparent)left repeat;
+      }
+      .box4 p {
+        color: white;
+      }
