@@ -159,3 +159,16 @@ a:hover {
   p{
     font-size: 16px;
   }
+
+  .boxdroite2{
+    display: flex;
+    background: linear-gradient(#fcce00, transparent) left repeat, url(bitmap2.png);
+    justify-content: center;
+    width: 50%;
+    float: left;
+    margin-right: 32px;
+  }
+  
+  .boxdroite2 img {
+    mix-blend-mode: darken;
+  }
