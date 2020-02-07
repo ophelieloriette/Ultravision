@@ -271,3 +271,31 @@ a:hover {
       .box4 p {
         color: white;
       }
+
+      .bas-page{
+
+        background:  #231f20;
+      }
+  
+  .ligne {
+
+    display: flex;
+  }
+  
+  .element {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right:30px;
+  }
+
+  .titre4 {
+    font-size: 40px;
+  text-align: center;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  }
