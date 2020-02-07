@@ -63,3 +63,51 @@ a:hover {
 * Components
 * ----------
 */
+
+.bande-titre {
+  width: 100%;
+  height: 128px;
+  background-color: #fcce00;
+  font-family: Poppins;
+  color: white;
+  font-size:38px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.section-title {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 64px;
+  background-color: #ff6b00;
+  font-family: Poppins;
+  color: white;
+  font-size:38px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.bande-rouge {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 32px;
+  background-color: #e02020;
+}
+.bande-violette {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 16px;
+  background-color: #b620e0;
+}
+.bande-bleu {
+  margin-top: 8px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 16px;
+  background-color: #6236ff;
+}
