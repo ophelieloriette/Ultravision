@@ -122,10 +122,9 @@ a:hover {
 
 .boxgauche {
   text-align: justify;
-  display: flex;
-  width: 50%;
-  float: left;
   margin-right: 32px;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
 .sub-title {
@@ -146,10 +145,18 @@ a:hover {
   float: right;
    }
 
+   .box{
+     display: flex;
+   }
+
    .boxdroite{
-    display: flex;
     background: linear-gradient(#fcce00, transparent) left repeat, url(bitmap.png);
-    justify-content: center;
+    justify-content: flex-end;
+    flex-basis: 0;
+    flex-grow: 1;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
   }
   
   .boxdroite img {
@@ -160,15 +167,35 @@ a:hover {
     font-size: 16px;
   }
 
-  .boxdroite2{
-    display: flex;
-    background: linear-gradient(#fcce00, transparent) left repeat, url(bitmap2.png);
+  .boxgauche2{
+    background: linear-gradient(#ff6b00, transparent) left repeat, url(bitmap2.png);
     justify-content: center;
-    width: 50%;
-    float: left;
+    display: flex;
+    align-items: center;
     margin-right: 32px;
+    flex-basis: 0;
+  flex-grow: 1;
   }
   
-  .boxdroite2 img {
+  .boxgauche2 img {
     mix-blend-mode: darken;
   }
+
+
+  .boxdroite2 {
+    text-align: justify;
+    margin-right: 32px;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+
+  .button2{
+    align-content:right;
+    border: 2px solid #ff6b00;
+    padding: 6px;
+    border-radius:15px;
+    font-weight: bold;
+    color:#ff6b00;
+    text-decoration: none;
+    float: right;
+     }
